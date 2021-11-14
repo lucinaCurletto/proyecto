@@ -1,0 +1,94 @@
+section{
+    margin: 30px;
+}
+
+h1{
+    color:rgb(182, 0, 0);
+    font-size: 48px;
+    font-family: 'Prata', serif;
+}    
+   
+
+h2{
+    color:rgb(182, 0, 0);
+    font-family: 'Prata', serif;
+}
+
+h3{
+    font-family: 'Prata', serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(216, 70, 70);
+    font-size:23px;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 2%;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    
+    
+}
+
+a:hover{
+    background: rgb(170, 6, 6);
+    color: antiquewhite;
+    
+}
+
+a:active{
+    color: rgb(255, 208, 154) ;
+    background-color: salmon;
+}
+
+
+.fuente{ 
+    font-size:20px;
+    font-family: 'Baloo 2', cursive;
+    text-align: justify;
+}    
+
+img{
+    float: right;
+    height: 300px;
+    margin: 18px;
+}
+
+strong{
+    color: rgb(196, 2, 2);
+}
+
+footer{
+    background-color: rgb(97, 12, 12);
+    background-color: rgb(167, 54, 54);
+    background: linear-gradient(to left, rgb(97, 12, 12),rgb(175, 79, 79));
+    font-size: 20px ;
+    font-family: 'Baloo 2', cursive;
+    color: seashell;
+    height: 160px;
+    
+}
+
+.foothover:hover{
+    color:black;
+    background: none;
+   
+}
+
+.card{
+    width:290px;
+    margin-bottom: 10%;
+
+}
